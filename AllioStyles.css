@@ -1,0 +1,18 @@
+.text-blue {
+    color: #053969;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+.tel {
+    color: #053969;
+    font-family: "Roboto Slab", serif;
+    font-size: 24px;
+    position: fixed;
+    left: 750px;
+    top: 40px;
+}
+
+* [type = search] {
+    border-radius: 8px;
+}
