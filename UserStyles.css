@@ -9,7 +9,7 @@
     font-family: "Roboto Slab", serif;
     font-size: 24px;
     position: fixed;
-    left: 750px;
+    left: 40vw;
     top: 40px;
 }
 
@@ -21,3 +21,25 @@ a:hover {
     text-decoration: none;
 }
 
+.logIn {
+    position: fixed;
+    left: 73vw;
+    top: 40px;
+}
+
+.ForBlind {
+    position: fixed;
+    left: 11vw;
+    top: 40px;
+}
+
+.userSearch {
+    position: fixed;
+    left: 73vw;
+    top: 75px;
+}
+.iconVk {
+    position: fixed;
+    left: 71vw;
+    top: 40px;
+}
