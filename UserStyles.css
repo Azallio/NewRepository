@@ -2,7 +2,9 @@
     color: #053969;
     background-color: none;
     border-color: none;
+    font-family: "Open Sans";
 }
+
 .text-blue {
     color: #053969;
     font-family: "Open Sans", serif7410/80*963.-+;
@@ -11,30 +13,126 @@
 
 .tel {
     color: #053969;
-    font-family: "Roboto Slab", serif;
+    font-family: "Open Sans", serif;
     font-size: 24px;
     position: fixed;
-    left: 39vw;
-    top: 40px;
+    left: 860px;
+    top: auto;
+}
+
+.box1 {
+    width: 1480px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.box2 {
+    width: 1480px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: 220px;
 }
 
 .text-h1 {
-    width: 420px;
-    margin: 0px;
-    position: fixed;
-    left: 320px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+.logo {
+    width: 102px;
+    height: 102px;
+    margin: 11px;
 }
 
 .h1Logo {
-        font-size: 27,2px;
-        text-align: left;
-        margin: 0;
-        content: 200px;
-        position: fixed;
-        top: 150px;
-        left: 11vw;
+    font-size: 27, 2px;
+    text-align: left;
+    margin: 0;
+    content: 200px;
+    position: fixed;
+    width: 600px;
+    height: 102px;
+    top: 150px;
+    left: auto;
 }
 
+.header_info {
+    position: fixed;
+    top: auto;
+    left: 1000px;
+    width: px;
+    height: 200px;
+    padding: 0;
+}
+
+.buttonSettings {
+    margin-left: 30px;
+    padding: 0;
+    position: relative;
+    top: auto;
+}
+
+.buttonText {
+    width: 230px;
+    height: 136px;
+    margin-left: 30px;
+    position: relative;
+    top: 0px;
+}
+
+.buttonUp {
+    position: relative;
+    top: -272px;
+    left: 460px;
+}
+
+.text {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.buttonText1 {
+    width: 230px;
+    height: 136px;
+    margin-left: 30px;
+    position: relative;
+    left: 230px;
+    top: -136px;
+}
+
+.buttonF {
+    margin-top: 10px;
+    position: relative;
+    top: -262px;
+    left: 490px;
+}
+
+button {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #60C0BB;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+
+button:active {
+    background-color: #347875;
+}
+
+
+button:hover {
+    background-color: #053969
+}
 
 a,
 a:visited,
@@ -44,30 +142,51 @@ a:hover {
     text-decoration: none;
 }
 
+
+
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
 .logIn {
     position: fixed;
-    left: 73vw;
-    top: 40px;
+    left: 1524px;
+    top: auto;
 }
 
 .ForBlind {
     position: fixed;
-    left: 11vw;
-    top: 40px;
+    left: auto;
+    top: auto;
 }
 
 .userSearch {
     position: fixed;
-    left: 70vw;
-    top: 75px;
+    left: 1475px;
+    top: 55px;
 }
 
 .userSearch input {
     border-radius: 8px;
+    border-color: #60C0BB;
 }
 
 .iconVk {
     position: fixed;
-    left: 70vw;
-    top: 40px;
+    left: 1470px;
+    top: auto;
 }
+
+.icon {}

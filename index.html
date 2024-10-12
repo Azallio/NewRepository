@@ -6,34 +6,89 @@
     <title>Клиническая инфекционная больница им. С.П.Боткина</title>
     <link rel="stylesheet" href="NormalStyle.css" />
     <link rel="stylesheet" href="UserStyles.css" />
+    <!--Шрифт Roboto Slab-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Шрифт Open Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
-      <section class="text-blue ForBlind">Для слабовидящих</section>
-      <section class="tel" title="Номер телефона больницы">
-        +7(812) 670-78-78
+      <section class="box1">
+        <div class="text-blue ForBlind">Для слабовидящих</div>
+        <div class="tel" title="Номер телефона больницы">+7(812) 670-78-78</div>
+        <div class="userSearch" title="Поиск">
+          <img src="images/Search.png" />
+          <input type="search" placeholder="Введите запрос" />
+        </div>
+        <div class="iconVk" title="Вконтакте">
+          <a href="https://vk.com/spbpolbotkina">
+            <img src="/images/vk.png" alt="Ссылка на группу Вконтакте" />
+          </a>
+        </div>
+        <div class="logIn" title="Ссылка на авторизацию">
+          <a href="https://botkinaspb.ru/avtorizacziya">
+            <img src="/images/Exit.png" alt="Авторизация на сайте Боткин" />
+            Вход/Регистрация
+          </a>
+        </div>
       </section>
-      <section class="userSearch" title="Поиск">
-        <img src="images/Search.png" />
-        <input type="search" placeholder="Введите запрос" />
-      </section>
-      <section class="iconVk" title="Вконтакте">
-        <a href="https://vk.com/spbpolbotkina">
-          <img src="/images/vk.png" alt="Ссылка на группу Вконтакте" />
-        </a>
-      </section>
-      <section class="logIn" title="Ссылка на авторизацию">
-        <a href="https://botkinaspb.ru/avtorizacziya">
-          <img src="/images/Exit.png" alt="Авторизация на сайте Боткин" />
-          Вход/Регистрация
-        </a>
-      </section>
-      <section class="h1Logo">
-        <h1 class="text-h1">
-          Клиническая инфекционная больница им. С.П.Боткина
-        </h1>
-        <img src="images/blueLogo.png" alt="Логотип" />
+
+      <section class="box2">
+        <div class="h1Logo">
+          <a href="index.html">
+            <h1 class="text-h1">
+              Клиническая инфекционная больница им. С.П.Боткина
+            </h1>
+            <img class="Logo" src="images/blueLogo.png" alt="Логотип" />
+          </a>
+        </div>
+        <div class="header_info">
+          <div class="buttonText">
+            <form action="https://botkinaspb.ru/zapis-na-priyom">
+              <button type="submit">Запись на приём</button>
+            </form>
+            <div class="text">
+              Санкт-Петербург, Миргородская ул., д.3
+              <a
+                style="color: #60c0bb"
+                href="https://yandex.ru/maps/-/CCUeeWag1D"
+                >проезд</a
+              >
+            </div>
+          </div>
+          <div class="buttonText1">
+            <form action="">
+              <button type="submit">Обратный звонок</button>
+            </form>
+            <div class="text">
+              Санкт-Петербург, Миргородская ул., д.3
+              <a
+                style="color: #60c0bb"
+                href="https://yandex.ru/maps/-/CCUeeWqI8A"
+                >проезд</a
+              >
+            </div>
+          </div>
+          <form action="https://botkinaspb.ru/dostupnaya-sreda">
+            <button class="buttonSettings buttonUp" type="submit">
+              Доступная среда
+            </button>
+          </form>
+          <form action="https://botkinaspb.ru/pomoshh-bolnicze">
+            <button class="buttonF" type="submit">Помощь больнице</button>
+          </form>
+        </div>
       </section>
     </header>
   </body>
