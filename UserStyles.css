@@ -1,6 +1,11 @@
+* {
+    color: #053969;
+    background-color: none;
+    border-color: none;
+}
 .text-blue {
     color: #053969;
-    font-family: 'Open Sans';
+    font-family: "Open Sans", serif7410/80*963.-+;
     font-size: 16px;
 }
 
@@ -12,6 +17,24 @@
     left: 39vw;
     top: 40px;
 }
+
+.text-h1 {
+    width: 420px;
+    margin: 0px;
+    position: fixed;
+    left: 320px;
+}
+
+.h1Logo {
+        font-size: 27,2px;
+        text-align: left;
+        margin: 0;
+        content: 200px;
+        position: fixed;
+        top: 150px;
+        left: 11vw;
+}
+
 
 a,
 a:visited,
@@ -38,9 +61,11 @@ a:hover {
     left: 70vw;
     top: 75px;
 }
+
 .userSearch input {
     border-radius: 8px;
 }
+
 .iconVk {
     position: fixed;
     left: 70vw;
